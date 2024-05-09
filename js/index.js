@@ -38,33 +38,35 @@
 
 //5- Write a program that take 3 integers from user then print the max element and the min element.
 //((((([[[[[[  answer  ]]]]]])))))  
-// var x =Number(window.prompt("Enter Number X"));
-// var y =Number(window.prompt("Enter Number Y"));
-// var z =Number(window.prompt("Enter Number Z"));
-// if (x > y){
-//     if( x > z ){
-//         console.log("max element = " + x);
-//     } 
-//     if(y<z){
-//         console.log("min element = " + y);
-//     }else{
-//         console.log("min element = " + z);
-//     }
-// }else if(y>z){
-//     console.log("max element = " + y);
-//     if(x<z){
-//         console.log("min element = " + x);
-//     }else{
-//         console.log("min element = " + z);
-//     };
-// }else {
-//         console.log("max element = " + z);
-//     if(x<y){
-//         console.log("min element = " + x);
-//     }else{
-//         console.log("min element = " + y);
-//     }
-// }
+var x =Number(window.prompt("Enter Number X"));
+var y =Number(window.prompt("Enter Number Y"));
+var z =Number(window.prompt("Enter Number Z"));
+if (x > y){
+    if( x > z ){
+        console.log("max element = " + x);
+    }else{
+        console.log("max element = " + z);
+    } 
+    if(y<z){
+        console.log("min element = " + y);
+    }else{
+        console.log("min element = " + z);
+    }
+}else if(y>z){
+    console.log("max element = " + y);
+    if(x<z){
+        console.log("min element = " + x);
+    }else{
+        console.log("min element = " + z);
+    };
+}else {
+        console.log("max element = " + z);
+    if(x<y){
+        console.log("min element = " + x);
+    }else{
+        console.log("min element = " + y);
+    }
+}
 
 
 // 6- Write a program that allows the user to insert integer number then check If a number is oven or odd
